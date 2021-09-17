@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top">
+
+    <ImageView
+        android:id="@+id/album_image"
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:layout_gravity="top"
+        android:src="@drawable/song_icon"
+        />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:src="@drawable/song_icon" />
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_secondary"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        android:src="@drawable/song_icon" />
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:src="@drawable/song_icon" />
+</LinearLayout>
+
+
+    <com.google.android.exoplayer2.ui.PlayerControlView
+       android:id="@+id/player"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:show_timeout="0"
+       app:hide_on_touch="false"
+       android:layout_gravity="bottom"
+       />
+
+</FrameLayout>

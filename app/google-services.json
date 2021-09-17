@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837792307386",
+    "firebase_url": "https://mp3-streaming-3b12c-default-rtdb.firebaseio.com",
+    "project_id": "mp3-streaming-3b12c",
+    "storage_bucket": "mp3-streaming-3b12c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837792307386:android:40c4e67244b5c7650f4a83",
+        "android_client_info": {
+          "package_name": "com.valadevs.mp3player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837792307386-0c3j0a02vcdg4dsff91gicp9ug9018go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXwX9KCwCirRL_HcZLibeXnPz6-TtOPxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837792307386-0c3j0a02vcdg4dsff91gicp9ug9018go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
